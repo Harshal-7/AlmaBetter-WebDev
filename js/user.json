@@ -1,0 +1,6 @@
+{
+    "name" : "Aech",
+    "id" : 1,
+    "adult" : true,
+    "hobbies" : ["gaming", "sleeping", "football"]
+}
