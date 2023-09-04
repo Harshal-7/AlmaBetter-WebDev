@@ -6,4 +6,4 @@ let newArray = list.map(function(items){
     return items + 1;
 })
 
-console.log(newArray);
+console.log(newArray);z
