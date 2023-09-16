@@ -23,17 +23,10 @@ function naiveStringMatch(mainString,pattern)
             {
                 break;
             }
-
         }
-
-        if(j===m)
-        {
+        if(j===m){
             occurrences.push(i);
         }
-
     }
-
     return occurrences;
-
-
 }

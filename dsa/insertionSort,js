@@ -1,0 +1,28 @@
+// Insertion sort
+
+function insertionSort(arr,n)
+{
+    for(let i = 1; i < n; i++)
+    {
+        let key = arr[i];
+        let j = i - 1;
+
+        while(j >= 0 && arr[j] > key)
+        {
+            arr[j+1] = arr[j];
+            j--;
+        }
+
+        arr[j+1] = key;
+    }
+
+    return arr;
+
+}
+
+let arr = [33, 66, 99, 88, 11];
+// let arr = [33, 66, 99, 99, 11];
+// let arr = [33, 66, 99, 99, 11]x.;
+
+let n = arr.length;
+console.log(insertionSort(arr,n));

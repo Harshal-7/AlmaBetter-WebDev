@@ -19,4 +19,5 @@ console.log(titleCase("Dream big, work hard, and stay focused"));
     item means each word from array
     charAt(0) takes first char of word then conver it to upper case and then 
     we use substring method to create a new word(string)
+    Lastly we convert array to string saperated with spaces
  */
