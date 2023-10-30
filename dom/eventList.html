@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listners 01</title>
+    <script src="eventList.js" defer></script>
+    <style>
+        body{
+            padding: 10px;
+        }
+        .pr{
+            margin-bottom: 10px;
+            padding-left: 4px;
+        }
+        #parent{
+            width: 400px;
+            background-color:aqua;
+        }
+        #child{
+            width: 200px;
+            background-color:rebeccapurple;
+            padding-top: 4px;
+            color: white;
+        }
+        p{
+            padding-left: 5px;
+        }
+        #grandChild{
+            width: 100px;
+            background-color:rgb(255, 238, 0);
+            padding:  4px 4px 4px 0;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="parent">
+
+        <h1 class="pr">
+            Parent
+        </h1>
+
+        <div id="child">
+            <p>Child</p>
+
+            <div id="grandChild">
+                <p>Grand Child</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <ul id="parentElement">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <input type="text" name="input-tx" id="input-tx">
+    
+      
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>jQuery and AJAX - 01</title>
+    <script>
+        $(document).ready(function(){
+            $('#myDiv').text('Updated jQuery');
+            $('#myDiv').css('background-color','yellow');
+            // $('#myDiv').html('<p>Updated jQuery with html<p>');
+            $('#myDiv').append('<p>Appended jQuery<p>');
+            $('#myDiv').prepend('<p><Prepended></Prepended> jQuery<p>');
+            
+            $('#myDiv').attr('class','myClass');
+            $('#myDiv').removeAttr('class');
+
+            $('input').val();
+        })
+
+    </script>
+</head>
+<body>
+    
+    <input type="text" name="ip" id="ip">
+    <div id="myDiv">
+        I am jQuery
+    </div>
+
+
+</body>
+</html>

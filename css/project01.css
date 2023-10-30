@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+}
+
+body{
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+header > h1{
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.para-align{
+    text-align: center;
+    font-weight: bold;
+}
+
+.para-align > a{
+    color: green;
+}
+
+.ul-1{
+    background-color: #ccc;
+    padding: 0 0 0 20px;
+}
+
+.ul-1 > .li-1{
+    color: #333;
+}
+
+.table1{
+    border: 1px solid black;
+    padding: 2px;
+    width: 100%;
+}
+
+
+.table1 th, .table1 td{
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+.table1 tr:nth-child(even){
+    background-color: #dbdbdb;
+}
+
+.p-custom > p{
+    background-color: green; 
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: bold;
+    padding: 4px;
+}
+
+.my-class{
+    text-align: center;
+    font-style: italic;
+}
+
+div > p{
+    text-align: center;
+    color: red;
+    font-weight: bold;
+}
+
+.input-ele{
+ background-color: rgb(142, 219, 255);   
+}
+
+.input-ele:focus{
+    background-color: rgb(255, 255, 255);   
+}

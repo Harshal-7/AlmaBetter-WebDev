@@ -1,0 +1,30 @@
+.anime{
+    background: powderblue;
+    font-size: larger;
+    color: red;
+}
+
+#aot{
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: blueviolet;
+
+}
+
+#div1{
+    background: blue;
+}
+
+#div1 > h5{
+    background: yellow;
+    color: blue;
+}
+
+#div1 > .aech{
+    background: orange;
+    font-weight: bold;
+}
+
+.ereh{
+    background-color: deepskyblue;
+}

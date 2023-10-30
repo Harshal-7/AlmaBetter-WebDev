@@ -1,0 +1,10 @@
+#div1{
+    margin: 50px 0 0 100px;
+    width: 500px;
+    height: 200px;
+    font-size: 40px;
+    font-family: Verdana;
+    font-weight: bold;
+    background-color: blueviolet;
+    border: 1px solid black;
+}
