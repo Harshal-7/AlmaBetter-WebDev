@@ -35,6 +35,7 @@ function Navbar() {
     'z-10': true,
     'fixed': true,
     'w-full': true,
+    'transition-all duration-300 linear': true, // Add a transition effect
   });
 
   const linkClasses = classNames({
